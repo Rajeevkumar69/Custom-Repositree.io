@@ -1,0 +1,32 @@
+.navlink {
+     font-size: 14px;
+     font-weight: 500;
+     display: table;
+     padding: 10px;
+     &:hover {
+          cursor: pointer;
+          color: rgb(8, 194, 8);
+     }
+}
+
+.navbar {
+     background-color: #fff;
+     height: 10vh;
+     .brand {
+          font-size: 18px;
+     }
+}
+button {
+     border: 1px solid #0000;
+     background-color: green;
+     height: 50px;
+     width: 19vh;
+     border-radius: 20px;
+     color: #fff;
+     font-weight: 500;
+     &:hover {
+          background-color: #fff;
+          border: 2px solid #008000;
+          color: #008000;
+     }
+}
