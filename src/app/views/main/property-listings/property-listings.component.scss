@@ -24,6 +24,7 @@
           justify-content: center;
           color: #fff;
      }
+
      .main-search-tag {
           position: relative;
           max-width: 900px;
@@ -83,14 +84,86 @@
           button {
                cursor: pointer;
                position: absolute;
-               right: 4px;
+               right: 10px;
                top: 50%;
                transform: translateY(-50%);
-               border: 0;
+               border: 1px solid #38966c;
+               height: 40px;
+               border-radius: 20px;
                background-color: #38966c;
                border-radius: 50px;
                color: #fff;
-               padding: 9px 36px;
+               padding: 7px 50px;
+               outline: none;
+
+               &:hover {
+                    background-color: #1d9961;
+                    border: 1px solid #027743;
+               }
+          }
+     }
+     .dropdown-opt {
+          display: flex !important;
+          margin-top: 20px !important;
+
+          .micromar-filter-options {
+               bottom: 12em;
+               padding-left: 10vh;
+               position: absolute;
+               width: 100%;
+               outline: none;
+
+               .dropdown-button {
+                    border-radius: 20px;
+               }
+          }
+
+          .category-filter-options {
+               bottom: 12em;
+               padding-left: 45vh;
+               margin-top: 10px;
+               position: absolute;
+               outline: none;
+
+               .dropdown-button {
+                    border-radius: 20px;
+               }
+          }
+
+          .tos-filter-options {
+               bottom: 12em;
+               padding-left: 75vh;
+               margin-top: 10px;
+               position: absolute;
+               outline: none;
+
+               .dropdown-button {
+                    border-radius: 20px;
+               }
+          }
+
+          .rent-rng-filter-options {
+               bottom: 12em;
+               padding-left: 115vh;
+               margin-top: 10px;
+               position: absolute;
+               outline: none;
+
+               .dropdown-button {
+                    border-radius: 20px;
+               }
+          }
+
+          .area-filter-options {
+               bottom: 12em;
+               padding-left: 160vh;
+               margin-top: 10px;
+               position: absolute;
+               outline: none;
+
+               .dropdown-button {
+                    border-radius: 20px;
+               }
           }
      }
 }
