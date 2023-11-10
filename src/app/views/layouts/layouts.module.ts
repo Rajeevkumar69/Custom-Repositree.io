@@ -7,6 +7,7 @@ import { PartialsModule } from '../main/partials/partials.module';
 import { PropertyListingsComponent } from '../main/property-listings/property-listings.component';
 import { BuildingsComponent } from '../main/buildings/buildings.component';
 import { AppFeaturesComponent } from '../main/app-features/app-features.component';
+import { AppServicesComponent } from '../main/app-services/app-services.component';
 // prettier-ignore
 @NgModule({
      declarations: [
@@ -14,7 +15,8 @@ import { AppFeaturesComponent } from '../main/app-features/app-features.componen
           HomeComponent,
           PropertyListingsComponent,
           BuildingsComponent,
-          AppFeaturesComponent
+          AppFeaturesComponent,
+          AppServicesComponent
   ],
      imports: [
           CommonModule,
