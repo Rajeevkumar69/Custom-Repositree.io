@@ -1,8 +1,112 @@
 .app-services {
-     h4 {
+     .contant-header {
+          h4 {
+               text-align: center;
+               color: #000;
+               font-weight: 600;
+               font-size: 32px;
+          }
+     }
+
+     .app-services-box1,
+     .app-services-box3 {
+          border-radius: 40px;
+          background-color: #fafafa;
+
+          .app-service-image1,
+          .app-service-image3 {
+               position: relative;
+          }
+          .app-service-content1,
+          .app-service-content3 {
+               padding: 60px 0;
+
+               h4 {
+                    color: #000;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 32px;
+                    margin-bottom: 20px;
+
+                    span {
+                         color: #38966c;
+                         display: table;
+                         width: 100%;
+                    }
+               }
+               ul {
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                         color: #757575;
+                         font-size: 16px;
+                         font-weight: 500;
+                         padding-left: 10px;
+                         margin-top: 10px;
+                         position: relative;
+                    }
+               }
+          }
+     }
+     .p-0 {
+          padding: 0 !important;
+
+          .app-services-box2 {
+               border-radius: 40px;
+               background-color: #fafafa;
+
+               .app-service-content2 {
+                    padding: 60px 0;
+
+                    h4 {
+                         color: #000;
+                         font-size: 32px;
+                         font-weight: 600;
+                         line-height: 32px;
+                         margin-top: 20px;
+
+                         span {
+                              color: #38966c;
+                              display: table;
+                              width: 100%;
+                         }
+                    }
+
+                    ul {
+                         padding: 0;
+                         margin: 0;
+
+                         li {
+                              color: #757575;
+                              font-weight: 500;
+                              font-size: 16px;
+                              padding-right: 10px;
+                              margin-top: 10px;
+                              position: relative;
+                         }
+                    }
+               }
+               .app-service-image2 {
+                    position: relative;
+               }
+          }
+     }
+     .services-guide-heading {
           text-align: center;
-          color: #000;
-          font-weight: 600;
-          font-size: 32px;
+          margin-top: 15vh;
+          font-family: 'Kanit', sans-serif;
+
+          h4 {
+               font-size: 38px;
+               font-weight: 600;
+               color: #000;
+               text-align: center;
+          }
+          p {
+               color: #757575;
+               font-size: 24px;
+               font-weight: 500;
+          }
      }
 }
