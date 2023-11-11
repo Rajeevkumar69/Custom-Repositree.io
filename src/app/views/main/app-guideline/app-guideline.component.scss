@@ -1,0 +1,74 @@
+* {
+     box-sizing: border-box;
+}
+.app-guideline {
+     .services-guide-heading {
+          text-align: center;
+          margin-top: 15vh;
+          font-family: 'Kanit', sans-serif;
+
+          h4 {
+               font-size: 38px;
+               font-weight: 600;
+               color: #000;
+               text-align: center;
+          }
+          p {
+               color: #757575;
+               font-size: 24px;
+               font-weight: 500;
+          }
+     }
+
+     ul {
+          display: table;
+          width: 100%;
+          margin: 40px, 0;
+          position: relative;
+
+          li {
+               position: relative;
+               float: left;
+               width: 20%;
+               text-align: center;
+               list-style: none !important;
+
+               h6 {
+                    font-weight: 600;
+                    font-size: 2vh !important;
+                    color: #38966c;
+                    margin-bottom: 50px;
+                    display: block;
+                    margin-block-start: 2.33em;
+                    margin-block-end: 2.33em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+               }
+
+               p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #000;
+                    padding: 0, 25px;
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+               }
+               span {
+                    border: 3px solid #ffffff;
+                    box-shadow: 0 0 10px #00000040;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50%;
+                    background-color: #38966c;
+                    position: absolute;
+                    top: 51px;
+                    left: 50%;
+                    transform: translate(-50%);
+               }
+          }
+     }
+}
