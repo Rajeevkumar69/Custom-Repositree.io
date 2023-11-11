@@ -1,0 +1,36 @@
+.app-about {
+     font-family: Poppins, sans-serif !important;
+     .align-item {
+          align-items: center;
+
+          .app-about-img {
+               width: 100%;
+               border-radius: 30px;
+
+               img {
+                    border: 0;
+                    max-width: 100%;
+                    height: 85vh;
+                    width: 70vh;
+                    border-radius: 30px;
+                    vertical-align: middle;
+               }
+          }
+          .app-about-desc {
+               padding: 0, 0, 0, 50px;
+
+               h2 {
+                    font-weight: 600;
+                    font-size: 28px;
+                    color: #000;
+                    margin-top: 20px;
+               }
+               p {
+                    color: #8f8f8f;
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding: 25px, 0, 0;
+               }
+          }
+     }
+}

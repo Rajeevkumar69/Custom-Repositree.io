@@ -9,6 +9,7 @@ import { BuildingsComponent } from '../main/buildings/buildings.component';
 import { AppFeaturesComponent } from '../main/app-features/app-features.component';
 import { AppServicesComponent } from '../main/app-services/app-services.component';
 import { AppGuidelineComponent } from '../main/app-guideline/app-guideline.component';
+import { AboutUsComponent } from '../main/about-us/about-us.component';
 // prettier-ignore
 @NgModule({
      declarations: [
@@ -18,7 +19,8 @@ import { AppGuidelineComponent } from '../main/app-guideline/app-guideline.compo
           BuildingsComponent,
           AppFeaturesComponent,
           AppServicesComponent,
-          AppGuidelineComponent
+          AppGuidelineComponent,
+          AboutUsComponent
   ],
      imports: [
           CommonModule,
