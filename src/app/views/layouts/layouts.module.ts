@@ -10,6 +10,8 @@ import { AppFeaturesComponent } from '../main/app-features/app-features.componen
 import { AppServicesComponent } from '../main/app-services/app-services.component';
 import { AppGuidelineComponent } from '../main/app-guideline/app-guideline.component';
 import { AboutUsComponent } from '../main/about-us/about-us.component';
+import { AppNewsComponent } from '../main/app-news/app-news.component';
+import { ContactUsComponent } from '../main/contact-us/contact-us.component';
 // prettier-ignore
 @NgModule({
      declarations: [
@@ -20,7 +22,9 @@ import { AboutUsComponent } from '../main/about-us/about-us.component';
           AppFeaturesComponent,
           AppServicesComponent,
           AppGuidelineComponent,
-          AboutUsComponent
+          AboutUsComponent,
+          AppNewsComponent,
+          ContactUsComponent
   ],
      imports: [
           CommonModule,
