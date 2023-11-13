@@ -12,6 +12,19 @@
 .navbar {
      background-color: #fff;
      height: 10vh;
+
+     .login {
+          color: blue;
+          border: none;
+          outline: none;
+          font-weight: 500;
+          background-color: #fff;
+
+          &:hover {
+               color: rgb(20, 20, 248);
+          }
+     }
+
      .brand {
           font-size: 18px;
      }

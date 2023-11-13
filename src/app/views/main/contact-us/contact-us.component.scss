@@ -1,5 +1,6 @@
 .contact-us {
      font-family: Poppins, sans-serif;
+     box-sizing: border-box;
 
      .contact-us-heading {
           width: 100%;
@@ -24,22 +25,28 @@
 
      .contact-form {
           border: 2px solid #e1e1e1;
-          border-radius: 20px;
           padding: 40px;
+          border-radius: 20px;
 
           .position-info {
-               position: relative;
+               position: relative !important;
 
                h4 {
                     font-size: 24px;
+                    margin: 0;
                     font-weight: 600;
                }
 
                ul {
                     display: table;
                     margin: 0 auto 15px;
-                    list-style: none;
                     padding: 0;
+                    list-style: none;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    padding-inline-start: 40px;
 
                     li {
                          float: unset;
@@ -47,23 +54,74 @@
                          margin: 20px 0;
                          width: 100%;
                          position: relative;
-                         padding-left: 40px;
                          font-weight: 400;
                          font-size: 18px;
                          color: #000;
+                         list-style: none;
+                    }
+               }
+          }
+          form {
+               border-left: 2px solid #e1e1e1;
+               padding-left: 40px;
+               margin: -40px 0;
+               padding-top: 40px;
+               padding-bottom: 40px;
+               display: block;
+          }
+          .contact-us-form {
+               max-width: 800px;
+               margin: 0 auto;
+               display: table;
+               width: 100%;
 
-                         i {
-                              position: absolute;
-                              left: 0;
-                              top: 0;
-                              background-color: #e4f8efab;
+               .form-group {
+                    margin-bottom: 15px;
+
+                    input,
+                    textarea {
+                         background-color: #f1f3f5;
+                         border: 0;
+                         height: 55px;
+                         outline: none !important;
+                         box-shadow: unset !important;
+                         margin: 0;
+                         font-family: inherit;
+                         font-size: inherit;
+                         line-height: inherit;
+                         display: block;
+                         width: 100%;
+                         padding: 0.375rem 0.75rem;
+                         font-size: 1rem;
+                         font-weight: 400;
+                         line-height: 1.5;
+                         color: #212529;
+                         background-color: #fff;
+                         background-clip: padding-box;
+                         border: 1px solid #ced4da;
+                         -webkit-appearance: none;
+                         appearance: none;
+                         border-radius: 0.375rem;
+                         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                    }
+                    button {
+                         width: 100%;
+                         padding: 8px 0;
+                         cursor: pointer;
+                         background-color: #38966c;
+                         color: #fff;
+                         border: 2px solid #38966c;
+                         padding: 3px 15px;
+                         border-radius: 20px;
+                         box-shadow: unset;
+                         transition: 0.3s;
+                         transition: all 0.3s ease-out 0s;
+                         outline: none;
+                         text-transform: none;
+
+                         &:hover {
+                              background-color: #fff;
                               color: #38966c;
-                              font-size: 14px;
-                              width: 25px;
-                              height: 25px;
-                              text-align: center;
-                              padding: 6px 0;
-                              border-radius: 50%;
                          }
                     }
                }
