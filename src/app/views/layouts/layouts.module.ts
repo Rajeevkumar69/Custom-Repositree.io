@@ -24,7 +24,7 @@ import { ContactUsComponent } from '../main/contact-us/contact-us.component';
           AppGuidelineComponent,
           AboutUsComponent,
           AppNewsComponent,
-          ContactUsComponent
+          ContactUsComponent,
   ],
      imports: [
           CommonModule,

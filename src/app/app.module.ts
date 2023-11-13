@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
-import { LoginComponent } from './views/popup/login/login.component';
+import { LoginComponent } from './views/main/popup/login/login.component';
 
 // prettier-ignore
 
@@ -16,7 +16,7 @@ import { LoginComponent } from './views/popup/login/login.component';
      declarations: [
       AppComponent,
       NopagefoundComponent,
-      LoginComponent
+      LoginComponent,
       ],
      imports: [
       BrowserModule,

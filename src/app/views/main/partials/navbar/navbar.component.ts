@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { UiHelperService } from 'src/app/shared/services/ui-helper.service';
-import { LoginComponent } from 'src/app/views/popup/login/login.component';
+import { LoginComponent } from '../../popup/login/login.component';
 
 @Component({
      selector: 'app-navbar',
