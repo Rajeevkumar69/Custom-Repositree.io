@@ -21,6 +21,10 @@ export class LoginComponent implements OnInit {
      ngOnInit(): void {}
 
      public closeDialogBox() {
-          this._dialogRef.close();
+          let payload = {
+               userName: 'Rajeev Kumar',
+               page: 'NewPopupComponent'
+          };
+          this._dialogRef.close(payload);
      }
 }

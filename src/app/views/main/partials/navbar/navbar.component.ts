@@ -24,7 +24,6 @@ export class NavbarComponent implements OnInit {
                userName: 'Rajeev',
                page: 'Navbar'
           };
-          this._uiHelperService.offScrolling();
           this._dialog
                .open(LoginComponent, {
                     enterAnimationDuration: '300ms',
