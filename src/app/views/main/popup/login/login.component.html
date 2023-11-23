@@ -1,11 +1,37 @@
-<div class="new-post-popup-component">
-     <div class="container">
-          <div class="row">
-               <div class="col-md-12">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-          </div>
-          <div class="row">
-               <div class="col-md-12">
-                    <button (click)="closeDialogBox()" class="btn btn-light">Close</button>
+<div class="container">
+     <div class="row">
+          <div class="col-12 col-lg-12 col-md-12 col-xs-12"></div>
+          <div class="login-popup-box">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-12 col-lg-6 col-md-6 col-xs-6">
+                              <div class="login-side-img">
+                                   <img src="https://d3nn873nee648n.cloudfront.net/1200x1800-new/16071/SM673539.jpg" alt="" />
+                              </div>
+                         </div>
+                         <div class="col-12 col-lg-6 col-md-6 col-xs-6">
+                              <i (click)="closeDialogBox()" class="far fa-times-circle"></i>
+                              <div class="login-from">
+                                   <h4>Login to continue</h4>
+                                   <form>
+                                        <div class="mb-3">
+                                             <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                             <label for="exampleInputPassword1" class="form-label">Password</label>
+                                             <input type="password" class="form-control" id="exampleInputPassword1" />
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                             <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                             <label class="form-check-label" for="exampleCheck1">Remember my password</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                   </form>
+                              </div>
+                         </div>
+                    </div>
                </div>
           </div>
      </div>

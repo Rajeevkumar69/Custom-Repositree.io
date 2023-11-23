@@ -1,6 +1,19 @@
-.new-post-popup-component {
+.login-popup-box {
      padding: 20px;
      width: 600px;
      height: 500px;
      overflow: auto;
+
+     .login-side-img {
+          position: relative;
+
+          img {
+               height: 300px;
+               width: 400px;
+          }
+     }
+
+     .login-from {
+          position: relative;
+     }
 }
